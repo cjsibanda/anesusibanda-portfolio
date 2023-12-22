@@ -179,7 +179,7 @@ ul {
 }
 
 .services .service:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
 }
 
 .services .service h2 {

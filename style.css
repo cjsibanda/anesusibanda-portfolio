@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #335;
     background: #a1c3ff;
 }
 
@@ -35,7 +35,7 @@ ul {
 
 .navbar {
     background: black;
-    color: #fff;
+    color: #ffg;
     height: 60px;
 }
 

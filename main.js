@@ -8,7 +8,7 @@ $(function() {
     });
 });
 
-// Highlight the top nav as scrolling happens
+
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })

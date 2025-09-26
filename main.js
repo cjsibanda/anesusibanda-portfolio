@@ -13,8 +13,9 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-// Collapses the Responsive Menu
+// Closes the Responsive Menu
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
 

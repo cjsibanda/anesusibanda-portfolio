@@ -131,7 +131,7 @@ ul {
     color: #fff;
     border-radius: 10px;
     margin: 20px 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
     padding: 15px 20px;
 }
 
@@ -273,6 +273,7 @@ ul {
     text-align: center;
   }
 }
+
 
 
 

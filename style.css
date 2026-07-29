@@ -237,59 +237,43 @@ ul {
     width: 100%;
     background: white;
     display: flex;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
-    position: relative;
 }
 
-.coming-soon-text {
-    font-size: clamp(5rem, 15vw, 15rem);
+.typewriter {
+    font-size: clamp(4rem, 12vw, 12rem);
     font-weight: 900;
     color: black;
+    font-family: 'Poppins', sans-serif;
+
+    overflow: hidden;
     white-space: nowrap;
-    position: absolute;
-    left: -100%;
-    animation: slideText 6s linear infinite;
+    border-right: 8px solid black;
+
+    width: 0;
+    animation: 
+        typing 3s steps(12) forwards,
+        cursor .7s infinite;
 }
 
 
-@keyframes slideText {
-    0% {
-        left: -100%;
+@keyframes typing {
+    from {
+        width: 0;
     }
 
-    100% {
-        left: 100%;
+    to {
+        width: 12ch;
     }
 }
 
-@media (max-width: 768px) {
-  .testimonials {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
 
-  .card:nth-of-type(1) {
-    grid-column: 1;
-  }
-
-  .card:nth-of-type(4) {
-    grid-column: 2/4;
-    grid-row: 2;
-  }
-
-  .card:nth-of-type(5) {
-    grid-column: 1;
-    grid-row: 5;
-  }
-
-  .services {
-    grid-template-columns: 1fr;
-  }
-
-  .services .service {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-  }
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
 }
 
 @media (max-width: 768px) {

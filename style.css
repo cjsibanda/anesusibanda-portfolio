@@ -232,6 +232,35 @@ ul {
     font-size: 20px;
 }
 
+.coming-soon {
+    height: calc(100vh - 60px);
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.coming-soon-text {
+    font-size: clamp(5rem, 15vw, 15rem);
+    font-weight: 900;
+    color: black;
+    white-space: nowrap;
+    animation: slideText 8s linear infinite;
+}
+
+
+@keyframes slideText {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100vw);
+    }
+}
+
 @media (max-width: 768px) {
   .testimonials {
     grid-template-columns: 1fr;

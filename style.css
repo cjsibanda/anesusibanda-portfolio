@@ -287,6 +287,15 @@ ul {
     display: block;
     text-align: center;
   }
+
+   .coming-soon {
+        padding: 20px;
+    }
+
+    .typewriter {
+        font-size: 2.5rem;
+        border-right: 3px solid black;
+    }
 }
 
 

@@ -10,34 +10,87 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio Website</title>
+    <title>CJ Sibanda | Portfolio</title>
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
         <div class="logo">Sibanda</div>
         <ul class="nav">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+          <li><a href="#home" class="page-scroll">Home</a></li>
+          <li><a href="#projects" class="page-scroll">Projects</a></li>
+          <li><a href="#videos" class="page-scroll">Videos</a></li>
         </ul>
       </div>
     </nav>
 
-    <header id="home" class="coming-soon">
-    <div class="typewriter">
-      Coming Soon!
-    </div>
-   </header>
-    
-    
+    <!-- Header Section -->
+    <header id="home" class="hero-section">
+      <div class="container">
+        <h1>Anesu 'CJ' Sibanda</h1>
+        <p>Software Developer & Computer Science Student</p>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="title">
+          <h1>Projects</h1>
+        </div>
+        
+        <div class="projects-grid">
+          <!-- Project 1: Banking Portal -->
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="images/banking-portal.png" alt="Banking Portal Homepage Screenshot" />
+            </div>
+            <div class="project-content">
+              <h2>Banking Portal</h2>
+              <p>Enterprise-grade digital banking dashboard featuring integer-cent financial accuracy, transaction ledgers, internal transfers, and investment portfolio tracking.</p>
+              <a href="https://cjsibanda.github.io/BankDashboard/" target="_blank" rel="noopener noreferrer" class="btn">
+                View Live Site <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Sibanda Flowers -->
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="images/sibanda-flowers.png" alt="Sibanda Flowers Homepage Screenshot" />
+            </div>
+            <div class="project-content">
+              <h2>Sibanda Flowers</h2>
+              <p>Responsive floral shop and e-commerce web platform built with TypeScript, Tailwind CSS, and Vite.</p>
+              <a href="https://cjsibanda.github.io/BankDashboard/" target="_blank" rel="noopener noreferrer" class="btn">
+                View Live Site <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section">
+      <div class="container">
+        <div class="title">
+          <h1>Videos</h1>
+        </div>
+        <div class="typewriter-container">
+          <div class="typewriter">Coming Soon!</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>CJ Sibanda &copy; 2026</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
   </body>
 </html>

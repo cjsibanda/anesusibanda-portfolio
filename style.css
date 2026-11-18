@@ -251,7 +251,7 @@ ul {
   transform: translate(-50%, -50%);
   width: 75px;
   height: 75px;
-  background: #a1c3ff;
+  background: #bc0e0e;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -274,12 +274,12 @@ ul {
 .video-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #a1c3ff;
+  color: #0d5de8;
 }
 
 .video-content p {
   font-size: 14px;
-  color: #ddd;
+  color: #1f1e1e;
   line-height: 1.7;
 }
 

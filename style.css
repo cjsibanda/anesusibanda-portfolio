@@ -199,7 +199,6 @@ ul {
 }
 
 /* VIDEOS SECTION */
-/*******************************/
 .videos-section {
   padding: 60px 0 100px;
   background-color: white;
@@ -262,6 +261,11 @@ ul {
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
+.video-thumbnail:hover .play-button {
+  background: white;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
 /* Video Content */
 .video-content {
   padding: 24px;
@@ -277,6 +281,27 @@ ul {
   font-size: 14px;
   color: #ddd;
   line-height: 1.7;
+}
+
+/* Responsive Video Card */
+@media (max-width: 768px) {
+  .video-card {
+    max-width: 100%;
+  }
+
+  .video-content {
+    padding: 20px;
+  }
+
+  .video-content h2 {
+    font-size: 20px;
+  }
+
+  .play-button {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
 }
 
 
